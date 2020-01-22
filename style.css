@@ -1,0 +1,83 @@
+*{
+    text-align: center;
+}
+.contact{
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txtfield{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+    transition: transform 0.25s ease-out;
+    outline: none;
+    font-family: 'El Messiri', sans-serif;
+
+}
+.txtarea{
+    width: 300px;
+    border-radius: 25px;
+    padding: 12px 30px;
+    border: 1px solid gray;
+    height: 50px;
+    transition: transform 0.25s ease-out;
+    outline: none;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.btn:hover,.btn:focus,
+.txtfield:hover,
+.txtarea:hover,
+.txtarea:focus,
+.txtfield:focus {
+  transform: scale(1.05);
+  border: 1px solid green;
+
+}
+
+.imag{
+width: 300px;
+}
+
+.btn{
+    border-radius: 25px;
+    width: 150px;
+    border: 1px solid rgba(9, 180, 9, 0.863);
+    color: whitesmoke;
+    outline: none ;
+	background-color: rgba(9, 180, 9, 0.863);
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'El Messiri', sans-serif;
+    transition: transform 0.25s ease-out;
+
+}
+
+#font {
+    animation: mymove 5s infinite;
+    font-family: 'El Messiri', sans-serif;
+    color: rgba(9, 180, 9, 0.863) ;
+    text-shadow: 10px 20px 30px blue;
+  }
+  
+  @keyframes mymove {
+    50% {text-shadow: 10px 20px 30px green;}
+  }
+  .footer{
+   color: whitesmoke;
+   font-family:'El Messiri', sans-serif;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rgba(9, 180, 9, 0.863);
+   text-align: center;
+  }
