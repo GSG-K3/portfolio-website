@@ -67,3 +67,213 @@ header h1{
 }
 
 }
+
+ html{
+scroll-behavior: smooth; 
+}
+
+
+.menu-design{
+    display: flex;
+    justify-content: center;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;    
+}
+
+li a{
+   text-decoration: none;
+   color: rgba(104, 115, 119, 0.932);
+}
+#logo{
+    height:50px;
+    width:100px;
+}
+.menu{
+    width: 80%;
+    height: 63%;
+    margin-top: 15px;
+}
+.topnav{
+    background-color:white;
+    overflow: hidden;
+    position: sticky;
+    padding: 20px 0 0 0 ;
+}
+
+
+  @media only screen  and (max-width: 450px) {
+    
+    ul{
+        display: flex;
+       
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+.menu-design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#logo{
+    height: 100px;
+    width: 200px;
+}
+    
+  }
+ 
+
+@media only screen and (min-width: 600px) {
+    .section1 {
+  }
+
+
+
+
+.display{
+    min-width: 200px;
+    min-height: 1500px;
+}
+
+#section1{
+    height:600px;
+}
+
+#section2{
+    height: 600px;
+}
+.display img{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    opacity: 50%;
+}
+
+
+h1{
+    font-family:'El Messiri', sans-serif;
+    font-size: 125px;
+    color: black;
+}
+
+.content{
+position: absolute;
+top:35%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+.btn{
+    position: absolute;
+    top:75%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 12px 24px;  
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    border: 4px solid #494949 !important;
+    transition: all 0.4s ease 0s;
+    font-family:'El Messiri', sans-serif;
+    font-size: 35px;
+    height: auto;
+}
+
+.btn:hover {
+    color:black;
+    background-color: rgba(168, 241, 168, 0.863);
+    border-color: grey !important;
+    transition: all 0.4s ease 0s;
+    font-family:'El Messiri', sans-serif;
+    font-size: 25px;
+}
+
+.contact{
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txtfield{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+    transition: transform 0.25s ease-out;
+    outline: none;
+    font-family: 'El Messiri', sans-serif;
+
+}
+.txtarea{
+    width: 300px;
+    border-radius: 25px;
+    padding: 12px 30px;
+    border: 1px solid gray;
+    height: 50px;
+    transition: transform 0.25s ease-out;
+    outline: none;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.send-button:hover,.send-button:focus,
+.txtfield:hover,
+.txtarea:hover,
+.txtarea:focus,
+.txtfield:focus {
+  transform: scale(1.05);
+  border: 1px solid green;
+
+}
+
+.imag{
+width: 300px;
+}
+
+.send-button{
+    border-radius: 25px;
+    width: 150px;
+    height: ;
+    border: 1px solid rgba(9, 180, 9, 0.863);
+    color: whitesmoke;
+    outline: none ;
+	background-color: rgba(9, 180, 9, 0.863);
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'El Messiri', sans-serif;
+    transition: transform 0.25s ease-out;
+
+}
+
+#font {
+    animation: mymove 5s infinite;
+    font-family: 'El Messiri', sans-serif;
+    color: rgba(9, 180, 9, 0.863) ;
+    text-shadow: 10px 20px 30px blue;
+  }
+  
+  @keyframes mymove {
+    50% {text-shadow: 10px 20px 30px green;}
+  }
+  .footer{
+   color: whitesmoke;
+   font-family:'El Messiri', sans-serif;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rgba(9, 180, 9, 0.863);
+   text-align: center;
+  }

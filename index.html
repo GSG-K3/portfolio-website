@@ -7,9 +7,43 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icon/scroll_1287105?term=scroll%20down&page=1&position=1">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+      <!-- Navbar Section-->
+      <section class="topnav">
+        <div class="menu-design">
+         <img id="logo" src="logo2.png">
+         <div class="menu">
+         <ul>
+          <li class="menu-item"><a  href = "#section1" >Home</a></li>
+          <li class="menu-item"> <a  href = "#" >About us</a></li>
+          <li class="menu-item"><a href = "#contact-info" >Contact</a></li>
+          <li class="menu-item"><a href="#team-info">Team</a></li>
+          </ul>
+          </div>
+          </div>
+      </section>
+
+  <!-- Display Section-->
+  <section id="section1">
+    <!-- ....Header image with the text -->
+<header class="display" id="Home">
+<div>
+<img src="pic2.jpg" alt="a colorful of laptop image">
+<h1 class="content"> <center> A website </center> makes it real </h1>
+<button href="#section2" class="btn">Get Started For Free</button>
+</div>
+</header>
+</section>  
+<section id="section2">
+</section>  
+
+
+    <!--Our team Section-->
     <section id="team-info">
         <header>
             <h1> Our Team</h1>
@@ -65,5 +99,55 @@
         
     </div>
     </section>
+
+
+  
+
+<!-- Contact Section-->
+<section id="contact-info">
+
+    <form class="contact">
+        <h3 id="font">Contact Us</h3>
+        
+        <div>
+            <label for="image" hidden>image</label>
+            <img id="image" class="imag" src="images/message.png" alt="IMG">
+        </div>
+       
+    <div>
+        <label for="name" hidden >name</label>
+        <div id="name" data-validate = "Name is required">
+            <input class="txtfield" type="text" name="name" placeholder="Name">
+        </div>
+        <label for="email" hidden >Email</label>
+    <div id="email" data-validate = "Valid email is required: ex@abc.xyz">
+            <input class="txtfield" type="email" name="email" placeholder="Email">
+        </div>
+        
+        <label for="subject" hidden >Subject</label>
+    <div id="subject" data-validate = "Subject is required">
+            <input class="txtfield" type="text" name="subject" placeholder="Subject">
+        </div>
+
+        <label for="message" hidden >Message</label>
+    <div id="message" data-validate = "Message is required">
+            <textarea class="txtarea" name="message" placeholder="Message"></textarea>
+        </div>
+
+        <div>
+            <label for="btn" hidden >Send Email</label>
+            <button id="btn" class="send-button"> Send Email</button>
+                </div>
+        </div>
+   
+        
+    </form>
+       </section>
+        <footer id="footer" class="footer">
+            <label for="footer" hidden >@2020-Created by Maker group team</label>
+
+        <span>@2020</span> <span>Created by Maker group team</span>
+                </footer>
+       
 </body>
 </html>
