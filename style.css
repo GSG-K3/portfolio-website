@@ -11,6 +11,7 @@ scroll-behavior: smooth;
 .menu-design{
     display: flex;
     justify-content: center;
+  
 }
 
 
@@ -22,8 +23,11 @@ ul{
 
 li a{
    text-decoration: none;
-   color: rgba(104, 115, 119, 0.932);
+   font-family:'El Messiri', sans-serif;
+   font-size: 30px;
+   color:black;
 }
+
 #logo{
     height:50px;
     width:100px;
@@ -32,12 +36,14 @@ li a{
     width: 80%;
     height: 63%;
     margin-top: 15px;
+    
+    
 }
 .topnav{
-    background-color:white;
-    overflow: hidden;
-    position: sticky;
+    background-color: white;
     padding: 20px 0 0 0 ;
+
+
 }
 
 
@@ -54,7 +60,7 @@ li a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+   
 }
 #logo{
     height: 100px;
@@ -64,14 +70,14 @@ li a{
   }
  
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
     .section1 {
   }
 
   @media only screen and (min-width: 600px) {
     .content {
         fonrt-size: 20px;
-  }
+  } */
 
   @media only screen and (min-width: 600px) {
     .btn {
@@ -81,7 +87,7 @@ li a{
         transform: translate(-50%, -50%);
   }
 
-
+  }
 .display{
     min-width: 200px;
     min-height: 1500px;
@@ -103,13 +109,13 @@ li a{
 
 .display h1{
     font-family:'El Messiri', sans-serif;
-    font-size: 125px;
+    font-size: 100px;
     color: black;
 }
 
 .content{
 position: absolute;
-top:35%;
+top:50%;
 left:50%;
 transform: translate(-50%, -50%);
 }
@@ -190,7 +196,6 @@ width: 300px;
 .send-button{
     border-radius: 25px;
     width: 150px;
-    height: ;
     border: 1px solid rgba(9, 180, 9, 0.863);
     color: whitesmoke;
     outline: none ;
