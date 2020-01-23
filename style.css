@@ -68,7 +68,18 @@ li a{
     .section1 {
   }
 
+  @media only screen and (min-width: 600px) {
+    .content {
+        fonrt-size: 20px;
+  }
 
+  @media only screen and (min-width: 600px) {
+    .btn {
+        position: absolute;
+        top:30%;
+        left:20%;
+        transform: translate(-50%, -50%);
+  }
 
 
 .display{
@@ -90,8 +101,7 @@ li a{
     opacity: 50%;
 }
 
-
-h1{
+.display h1{
     font-family:'El Messiri', sans-serif;
     font-size: 125px;
     color: black;
