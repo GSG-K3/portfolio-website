@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://www.flaticon.com/free-icon/scroll_1287105?term=scroll%20down&page=1&position=1">
+    <title>Our Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
-    <title>Welcome to MakerGroup</title>
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icon/scroll_1287105?term=scroll%20down&page=1&position=1">
 </head>
-<body>
+
+    <body>
     <section class="topnav">
     <div class="menu-design">
      <img id="logo" src="logo2.png">
@@ -16,13 +18,14 @@
      <ul>
       <li class="menu-item"><a  href = "#section1" >Home</a></li>
       <li class="menu-item"> <a  href = "#" >About us</a></li>
-      <li class="menu-item"><a href = "#contact" >Contact</a></li>
+      <li class="menu-item"><a href = "#contact-info" >Contact</a></li>
       <li class="menu-item"><a href="#team-info">Team</a></li>
       </ul>
       </div>
       </div>
   </section>
-   <section id="section1">
+  
+    <section id="section1">
         <!-- ....Header image with the text -->
     <header class="display" id="Home">
     <div>
@@ -31,8 +34,53 @@
     <button href="#section2" class="btn">Get Started For Free</button>
     </div>
     </header>
-</section> 
+</section>  
 <section id="section2">
 </section>  
+<section id="contact-info">
+
+    <form class="contact">
+        <h3 id="font">Contact Us</h3>
+        
+        <div>
+            <label for="image" hidden>image</label>
+            <img id="image" class="imag" src="images/message.png" alt="IMG">
+        </div>
+       
+    <div>
+        <label for="name" hidden >name</label>
+        <div id="name" data-validate = "Name is required">
+            <input class="txtfield" type="text" name="name" placeholder="Name">
+        </div>
+        <label for="email" hidden >Email</label>
+    <div id="email" data-validate = "Valid email is required: ex@abc.xyz">
+            <input class="txtfield" type="email" name="email" placeholder="Email">
+        </div>
+        
+        <label for="subject" hidden >Subject</label>
+    <div id="subject" data-validate = "Subject is required">
+            <input class="txtfield" type="text" name="subject" placeholder="Subject">
+        </div>
+
+        <label for="message" hidden >Message</label>
+    <div id="message" data-validate = "Message is required">
+            <textarea class="txtarea" name="message" placeholder="Message"></textarea>
+        </div>
+
+        <div>
+            <label for="btn" hidden >Send Email</label>
+            <button id="btn" class="send-button"> Send Email</button>
+                </div>
+        </div>
+   
+        
+    </form>
+       </section>
+        <footer id="footer" class="footer">
+            <label for="footer" hidden >@2020-Created by Maker group team</label>
+
+        <span>@2020</span> <span>Created by Maker group team</span>
+                </footer>
+       
 </body>
 </html>
