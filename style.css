@@ -6,8 +6,7 @@
 }
 
 #team-info{
-    padding: 30px 10px;
-
+    padding: 50px 10px 70px;
 }
 
 #team{
@@ -65,7 +64,6 @@ header h1{
 .card{
     margin: 10px 0;
 }
-
 }
 
  html{
@@ -89,15 +87,18 @@ li a{
    text-decoration: none;
    color: rgba(104, 115, 119, 0.932);
 }
+
 #logo{
     height:50px;
     width:100px;
 }
+
 .menu{
     width: 80%;
     height: 63%;
     margin-top: 15px;
 }
+
 .topnav{
     background-color:white;
     overflow: hidden;
@@ -129,11 +130,21 @@ li a{
   }
  
 
-@media only screen and (min-width: 600px) {
-    .section1 {
+
+  @media only screen and (min-width: 600px) {
+    .content {
+        font-size: 20px;
   }
+}
 
-
+  @media only screen and (min-width: 600px) {
+    .btn {
+        position: absolute;
+        top:30%;
+        left:20%;
+        transform: translate(-50%, -50%);
+  }
+}
 
 
 .display{
@@ -155,8 +166,7 @@ li a{
     opacity: 50%;
 }
 
-
-h1{
+.display h1{
     font-family:'El Messiri', sans-serif;
     font-size: 125px;
     color: black;
@@ -195,6 +205,10 @@ transform: translate(-50%, -50%);
     font-family:'El Messiri', sans-serif;
     font-size: 25px;
 }
+
+#contact-info{
+padding: 100px 0  ;
+background-color: whitesmoke;}
 
 .contact{
     padding-bottom: 50px;
@@ -245,7 +259,6 @@ width: 300px;
 .send-button{
     border-radius: 25px;
     width: 150px;
-    height: ;
     border: 1px solid rgba(9, 180, 9, 0.863);
     color: whitesmoke;
     outline: none ;
@@ -265,9 +278,10 @@ width: 300px;
   }
   
   @keyframes mymove {
-    50% {text-shadow: 10px 20px 30px green;}
+    50% {text-shadow: 10px 20px 30px green}
   }
-  .footer{
+
+  .footer {
    color: whitesmoke;
    font-family:'El Messiri', sans-serif;
    position: fixed;
