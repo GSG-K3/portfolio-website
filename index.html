@@ -1,88 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Our Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.flaticon.com/free-icon/scroll_1287105?term=scroll%20down&page=1&position=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://www.flaticon.com/free-icon/scroll_1287105?term=scroll%20down&page=1&position=1">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-    <body>
+<body>
+
+    <!-- Navbar Section-->
     <section class="topnav">
-    <div class="menu-design">
-     <img id="logo" src="logo2.png">
-     <div class="menu">
-     <ul>
-      <li class="menu-item"><a  href = "#section1" >Home</a></li>
-      <li class="menu-item"> <a  href = "#" >About us</a></li>
-      
-      <li class="menu-item"><a href="#team-info">Team</a></li>
-      <li class="menu-item"><a href = "#contact-info" >Contact</a></li>
-      </ul>
-      </div>
-      </div>
-  </section>
-  
+        <div class="menu-design">
+            <img id="logo" src="logo2.png" alt="logo icon">
+            <div class="menu">
+                <ul>
+                    <li class="menu-item"><a href="#section1">Home</a></li>
+                    <li class="menu-item"> <a href="#about-info">About us</a></li>
+                    <li class="menu-item"><a href="#team-info">Team</a></li>
+                    <li class="menu-item"><a href="#contact-info">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Display Section-->
     <section id="section1">
-        <!-- ....Header image with the text -->
-    <header class="display" id="Home">
-    <div>
-        
-    <img src="pic2.jpg" alt="a colorful of laptop image">
-    <h1 class="content"> <center> A website </center> makes it real </h1>
-    <button href="#section2" class="btn">Get Started For Free</button>
-    </div>
-    </header>
-</section>  
-<section id="section2">
-</section>  
-<section id="contact-info">
+        <header class="display" id="Home">
+            <img src="landpage.jpg" alt="a colorful of laptop image">
+            <h1 class="content">
+                <center> A website </center> makes it real
+            </h1>
+            <button class="btn"><a href="#about-us">Get Started For Free </a></button>
 
-    <form class="contact">
-        <h3 id="font">Contact Us</h3>
-        
-        <div>
-            <label for="image" hidden>image</label>
-            <img id="image" class="imag" src="images/message.png" alt="IMG">
-        </div>
-       
-    <div>
-        <label for="name" hidden >name</label>
-        <div id="name" data-validate = "Name is required">
-            <input class="txtfield" type="text" name="name" placeholder="Name">
-        </div>
-        <label for="email" hidden >Email</label>
-    <div id="email" data-validate = "Valid email is required: ex@abc.xyz">
-            <input class="txtfield" type="email" name="email" placeholder="Email">
-        </div>
-        
-        <label for="subject" hidden >Subject</label>
-    <div id="subject" data-validate = "Subject is required">
-            <input class="txtfield" type="text" name="subject" placeholder="Subject">
-        </div>
+        </header>
+    </section>
 
-        <label for="message" hidden >Message</label>
-    <div id="message" data-validate = "Message is required">
-            <textarea class="txtarea" name="message" placeholder="Message"></textarea>
-        </div>
+    <!-- About US-->
+    <section id="about-us">
+        <header>
+            <h1> Why People Believe in Us </h1>
+        </header>
+        <p> Always render more and better service than <br>is expected of you, no matter your task may be.</p>
 
-        <div>
-            <label for="btn" hidden >Send Email</label>
-            <button id="btn" class="send-button"> Send Email</button>
+        <div class="service-icons">
+            <ul id="about-icons">
+                <li><img src="service4.png" alt="mobile icon" /> <br> Mobile Web Development Services </li>
+                <li><img src="service2.png" alt="code icon" /> <br> Web Development Services</li>
+                <li><img src="service3.png" alt="computer icon" /> <br> Web Design Services</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Our team Section-->
+    <section id="team-info">
+        <header>
+            <h1> Our Team</h1>
+        </header>
+        <div id="team">
+            <div class="card">
+                <img class="card-img" src="tasneemm.jpg" alt="Tasneem's Picture" />
+                <h1> Tasneem </h1>
+                <p class="title">Marketing</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, expedita animi quos consequatur
+                    doloribus natus, nesciunt perferendis optio hic ipsum eius? </p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/gazaskygeeks">i<i class="fa fa-instagram"
+                            style="color:black;"></i></a>
+                    <a href="https://twitter.com/gazaskygeeks">t<i class="fa fa-twitter" style="color:black;"></i></a>
+                    <a href="https://www.facebook.com/GazaSkyGeeks">f<i class="fa fa-facebook"
+                            style="color:black;"></i></a>
                 </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="karmel.jpg" alt="Karmel's Picture" />
+                <h1> Karmel </h1>
+                <p class="title">Designer</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, expedita animi quos consequatur
+                    doloribus natus, nesciunt perferendis optio hic ipsum eius? </p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/gazaskygeeks">i<i class="fa fa-instagram"
+                            style="color:black;"></i></a>
+                    <a href="https://twitter.com/gazaskygeeks">t<i class="fa fa-twitter" style="color:black;"></i></a>
+                    <a href="https://www.facebook.com/GazaSkyGeeks">f<i class="fa fa-facebook"
+                            style="color:black;"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="rahaf.jpg" alt="Rahaf's Picture" />
+                <h1> Rahaf </h1>
+                <p class="title">Developer</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, expedita animi quos consequatur
+                    doloribus natus, nesciunt perferendis optio hic ipsum eius? </p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/gazaskygeeks">i<i class="fa fa-instagram"
+                            style="color:black;"></i></a>
+                    <a href="https://twitter.com/gazaskygeeks">t<i class="fa fa-twitter" style="color:black;"></i></a>
+                    <a href="https://www.facebook.com/GazaSkyGeeks">f<i class="fa fa-facebook"
+                            style="color:black;"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="hussain.jpeg" alt="Hussein Picture" />
+                <h1> Hussain </h1>
+                <p>Manager</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, expedita animi quos consequatur
+                    doloribus natus, nesciunt perferendis optio hic ipsum eius? </p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/gazaskygeeks">i<i class="fa fa-instagram"
+                            style="color:black;"></i></a>
+                    <a href="https://twitter.com/gazaskygeeks">t<i class="fa fa-twitter" style="color:black;"></i></a>
+                    <a href="https://www.facebook.com/GazaSkyGeeks">f<i class="fa fa-facebook"
+                            style="color:black;"></i></a>
+                </div>
+            </div>
+
         </div>
-   
-        
-    </form>
-       </section>
-        <footer id="footer" class="footer">
-            <label for="footer" hidden >@2020-Created by Maker group team</label>
+    </section>
+
+    <!-- Contact Section-->
+    <section id="contact-info">
+        <header>
+            <h1> Contact Us </h1>
+        </header>
+        <div class="contact-inputs">
+            <form class="contact">
+                <label for="name">name</label>
+                <input id="name" class="txtfield" type="text" name="name" placeholder="Name">
+
+                <label for="email">Email</label>
+                <input id="email" class="txtfield" type="email" name="email" placeholder="Email">
+
+                <label for="subject" >Subject</label>
+                <input id="subject" class="txtfield" type="text" name="subject" placeholder="Subject">
+
+                <label for="message" >Message</label>
+                <textarea id="message" class="txtarea" name="message" placeholder="Message"></textarea>
+
+                <label for="btn" >Send Email</label>
+                <button id="btn" class="send-button"> Send Email</button>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer" class="footer">
+        <label for="footer" hidden>@2020-Created by Maker group team</label>
 
         <span>@2020</span> <span>Created by Maker group team</span>
-                </footer>
-       
+    </footer>
+
 </body>
+
 </html>
