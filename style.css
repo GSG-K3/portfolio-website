@@ -37,7 +37,8 @@ li a{
  
  .topnav{
      background-color: white;
-     position: sticky;
+     position: fixed;
+     width:100%;
      top: 0;
  }
  
@@ -50,12 +51,13 @@ li a{
     position: relative;
     width: 100%;
     height: 600px;
+    margin: 100px 0;
 }
 
 .display img{
     width: 100%;
     height: 600px;
-    position: relative;
+    /* position: relative; */
     opacity: 50%;
 }
 
@@ -181,10 +183,6 @@ header h1{
 
 /*Contact Style*/
 
-
-
-
-
 #contact-info{
 padding: 100px 0  ;
 }
@@ -218,13 +216,11 @@ padding: 100px 0  ;
     transition: transform 0.25s ease-out;
     outline: none;
 }
-
-
-
+/* 
 .imag{
 width: 400px;
 margin: 0 50px;
-}
+} */
 
 .send-button{
     border-radius: 25px;
